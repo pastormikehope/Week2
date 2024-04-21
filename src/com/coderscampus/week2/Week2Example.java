@@ -8,9 +8,9 @@ public class Week2Example {
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Type in number between 50 and 300");
 		String userInput = scanner.nextLine();
-		Integer convertedInput = Integer.parseInt(userInput);
+		int convertedInput = Integer.parseInt(userInput);
 		
-		if (userInput.equals(>"50") && userInput.equals(<"300")){
+		if (convertedInput >= 50 && convertedInput <= 300) {
 		System.out.println("Yes!");
 		} else {
 			System.out.println("No!");
