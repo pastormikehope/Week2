@@ -10,11 +10,12 @@ public class Week2Example {
 		String userInput = scanner.nextLine();
 		Integer convertedInput = Integer.parseInt(userInput);
 		
-		if (userInput.equals ("> 50") && ("< 300")){
+		if (userInput.equals(>"50") && userInput.equals(<"300")){
 		System.out.println("Yes!");
 		} else {
 			System.out.println("No!");
 		}
+	
 	
 	
 	}
