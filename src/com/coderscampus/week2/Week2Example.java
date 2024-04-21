@@ -11,9 +11,9 @@ public class Week2Example {
 		Integer convertedInput = Integer.parseInt(userInput);
 		
 		if (userInput.equals ("> 50") && ("< 300")){
-		System.out.println("Yes");
+		System.out.println("Yes!");
 		} else {
-			System.out.println("No");
+			System.out.println("No!");
 		}
 	
 	
