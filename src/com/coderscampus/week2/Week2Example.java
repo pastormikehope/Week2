@@ -14,9 +14,11 @@ public class Week2Example {
 		System.out.println("Yes!");
 		} else {
 			System.out.println("No!");
+			
 		}
 	
-	
+		scanner.close();
+		
 	
 	}
 	
